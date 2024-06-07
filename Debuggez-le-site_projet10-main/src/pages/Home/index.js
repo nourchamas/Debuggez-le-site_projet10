@@ -11,7 +11,7 @@ import Icon from "../../components/Icon";
 import Form from "../../containers/Form";
 import Modal from "../../containers/Modal";
 import { useData } from "../../contexts/DataContext";
-/* errur  const last */ 
+/* errur  const last ; classe les évènements par date , récupérez la dernière prestation */ 
 const Page = () => {
   const { data } = useData();
   const last = data?.events.sort((evtA, evtB) =>
